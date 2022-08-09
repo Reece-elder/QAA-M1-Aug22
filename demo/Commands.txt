@@ -1,0 +1,20 @@
+Create my file to push up
+`touch <filename>`
+
+Add program to staging area
+`git add <filename>`
+`git add .` Adds EVERYTHING HERE 
+
+Check the status of our repo
+`git status`
+
+Commit my changes
+`git commit -m "commit message"`
+
+Push my changes up to github
+`git push`
+
+Exercise 
+- Make 2 files coolFile.md and coolText.txt and push them to your repo in two separate commits
+
+- Make a .js, .txt, .exe file and push them all up to github in one commit 
