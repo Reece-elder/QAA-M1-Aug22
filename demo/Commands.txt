@@ -1,3 +1,6 @@
+========================================
+Basic Commands
+
 Create my file to push up
 `touch <filename>`
 
@@ -18,3 +21,6 @@ Exercise
 - Make 2 files coolFile.md and coolText.txt and push them to your repo in two separate commits
 
 - Make a .js, .txt, .exe file and push them all up to github in one commit 
+
+===========================================
+Branching
