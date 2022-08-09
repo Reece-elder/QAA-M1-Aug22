@@ -24,3 +24,116 @@ Exercise
 
 ===========================================
 Branching
+
+Show all branches in repo 
+`git branch`
+
+Make a branch called dev
+`git branch <branch_name>`
+
+Checkout to my dev branch 
+`git checkout <branch_name>`
+
+Make a new branch and checkout it
+`git checkout -b <new branch name>`
+
+Delete a branch 
+`git branch -d <branch_name>
+
+Exercise 
+- Make a dev branch that contains dev.txt and push to github
+- Make 2 feature branches off of dev, each contains a unique .md file. Push them up to github
+
+!IMPORTANT MAKE SURE YOU SWITCH BACK TO DEV BETWEEN BRANCHES!
+
+==========================================
+Logging
+
+A list of all commits made on all branches
+`git log`
+press enter to get to bottom of list, then q
+
+`git log dev`
+`git log --oneline`
+`git log --all --decorate --oneline --graph`
+
+HEAD -> <branch name> - Where are we currently at, and what branch 
+
+=========================================
+Reverting 
+
+Resetting back to old or previous git histories
+Generally its difficult to revert git back, most of the time its better to move forward it possible 
+
+Makes a new commit and sets the state to that of the commit id
+`git revert <commit id>`
+`git revert HEAD` - revert back to the previous commit
+
+`git reset --hard <commit id>` - revert back to this commit and discard the history  
+
+Exercise
+Create a new commit adding an incorrect file, use git log--oneline to get the id and revert this commit back before pushing to GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
