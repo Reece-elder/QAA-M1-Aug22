@@ -64,3 +64,17 @@ jobs:
 
 # Exercise 
 # Create a .github/workflows directory in your project and create a workflow that checks out your repo, makes a new file and lists all of the contents
+
+# Exercise
+# Add a global, job and step var to work with echo / run commands
+# Add Build, Test, Deploy jobs to your project that use scripts and do atleast 4 of the following commands per script:
+# - add new file
+# - remove files / directories
+# - make directory
+# - move files
+# - prints out the current location (pwd)
+# - prints out the current user (whoami)
+# - adds a line of text to an existing file
+# - simple if else statement using another function 
+# - prints out all of the files in a repo
+# - pushes a file to a different repo
