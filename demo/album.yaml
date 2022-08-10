@@ -1,0 +1,36 @@
+albums:
+- album1:
+  artist: 
+    main_artist: Rob Pajama
+    feat: Dunk Honeybee, No Belles
+  album_name: Doctor in the House
+  year_released: 2019
+  rating: 7
+  runtime: "18:40"
+  genre: Electronic Music
+  number_songs: 7
+  songs:
+  - song_1:
+    name: Going Magnet
+    runtime: "02:28"
+  - song_2:
+    name: Automatic Faith
+    runtime: "02:59"
+  - song_3:
+    name: Good Lines
+    runtime: "02:45"
+
+- artist: 
+    main_artist: Figment of Ruins
+    feat: NA
+  album_name: Committee of Despair
+  year_released: 2017
+  rating: 9
+  runtime: "23:43"
+  genre: Nu Metal
+  number_songs: 9
+  songs:
+  - name: Naive move
+    runtime: "03:38"
+  - name: Progressive Train
+    runtime: "01:58"
