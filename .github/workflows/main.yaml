@@ -50,6 +50,11 @@ jobs:
       env: 
         GREETING: "Hello!"
     - run: echo "$SECRET_PASSWORD"
+  
+  build_job:
+    runs-on: ubuntu-latest
+    steps:
+    - run: ./buildScript.sh
 
   
 
