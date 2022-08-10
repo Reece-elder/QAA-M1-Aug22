@@ -1,0 +1,28 @@
+--- 
+# Three dashes used to say 'This is a new file'
+# This is a comment
+
+# Create an array of pizzas, with toppings, size, stuffedCrust
+pizzas:
+- hawaiian:
+  type: Hawaiian
+  size: 14
+  stuffedCrust: true
+  toppings: 
+  - ham
+  - pineapple
+  - mozzarella
+- fourCheese:
+  type: "4 Cheese Pizza" # Interpreted as a String
+  size: 13
+  stuffedCrust: false # boolean - if you do True False it will be interpreted as a String
+  toppings: 
+  - Mozzerella
+  - Gorgonzola
+  - Parmesan
+  - Goat Cheese
+
+
+
+---
+# File 2 of the yaml file
