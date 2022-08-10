@@ -6,6 +6,11 @@
 name: Git Actions Demo
 # What triggers this workflow run
 on: [push]
+
+# Global var
+env: 
+  NAME: Reece
+
 # What jobs are part of this workflow
 jobs:
   # What is the name of this job
@@ -25,6 +30,24 @@ jobs:
       uses: actions/checkout@v3 # Pre build official github action to checkout a repo 
     
     - run: ls
+
+    # Environment variables, public (name of a service) or private (password for logging in) 
+    # Global env vars these are declared OUTSIDE of the jobs: and available everywhere
+    # Job specific vars which are available to that job
+    # Step specific vars which are accessible to a single step
+  env_job: 
+    runs-on: ubuntu-latest
+    # Job specific var
+    env: 
+      COLOUR: Purple
+    steps:
+    - run: echo "$NAME favourite colour is $COLOUR"
+    - name: Print out Step Var
+      run: echo "$GREETING"
+      env: 
+        GREETING: "Hello!"
+
+  
 
 # Exercise 
 # Create a .github/workflows directory in your project and create a workflow that checks out your repo, makes a new file and lists all of the contents
