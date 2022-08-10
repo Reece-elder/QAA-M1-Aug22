@@ -10,6 +10,9 @@ on: [push]
 # Global var
 env: 
   NAME: Reece
+  SECRET_PASSWORD: ${{ secrets.secret_password }} 
+  # Creating a variable called SECRET_PASSWORD
+  # Within Github add a secret called secret_password
 
 # What jobs are part of this workflow
 jobs:
@@ -46,6 +49,7 @@ jobs:
       run: echo "$GREETING"
       env: 
         GREETING: "Hello!"
+    - run: echo "$SECRET_PASSWORD"
 
   
 
