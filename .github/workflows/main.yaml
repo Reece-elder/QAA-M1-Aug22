@@ -56,7 +56,9 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v3
+    - run: chmod +x buildScript.sh # Adding executable permissions to this file
     - run: ./buildScript.sh
+    - run: ls
 
   
 
